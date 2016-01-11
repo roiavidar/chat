@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+	<html lang="en-us">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Netcraft Chat</title>
+		<link rel="stylesheet" href="chat.css">
+	</head>
+
+	<body>
+		<main class="ChatModule">
+			<div class="ChatModule-content">
+				<header class="ChatModule-header">
+					<span class="ChatModule-header-text">
+						Netcraft Chat
+					</span>
+				</header>
+				<div class="ChatModule-chatArea" id="js-messages-container"></div>
+				<form class="ChatModule-sendUIWrapper">
+					<input type="submit" class="ChatModule-send" id="js-sendMessage" value="Send">
+					<div class="ChatModule-inputWrapper">
+						<input type="text" class="ChatModule-input" id="js-userInput" maxlength=45 />
+					</div>
+				</form>
+			</div>
+		</main>
+		<script src="chat.js"></script>
+
+	</body>
+
+	</html>
